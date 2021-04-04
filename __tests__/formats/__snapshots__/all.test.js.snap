@@ -2,55 +2,46 @@
 
 exports[`formats all should match android/colors snapshot 1`] = `
 "<?xml version=\\"1.0\\" encoding=\\"UTF-8\\"?>
-
 <!--
   Do not edit directly
   Generated on Sat, 01 Jan 2000 00:00:00 GMT
 -->
 <resources>
   <color name=\\"color_red\\">#FF0000</color><!-- comment -->
-  
-</resources>
-"
+</resources>"
 `;
 
 exports[`formats all should match android/dimens snapshot 1`] = `
 "<?xml version=\\"1.0\\" encoding=\\"UTF-8\\"?>
-
 <!--
   Do not edit directly
   Generated on Sat, 01 Jan 2000 00:00:00 GMT
 -->
 <resources>
-  
-</resources>
-"
+
+</resources>"
 `;
 
 exports[`formats all should match android/fontDimens snapshot 1`] = `
 "<?xml version=\\"1.0\\" encoding=\\"UTF-8\\"?>
-
 <!--
   Do not edit directly
   Generated on Sat, 01 Jan 2000 00:00:00 GMT
 -->
 <resources>
-  
-</resources>
-"
+
+</resources>"
 `;
 
 exports[`formats all should match android/integers snapshot 1`] = `
 "<?xml version=\\"1.0\\" encoding=\\"UTF-8\\"?>
-
 <!--
   Do not edit directly
   Generated on Sat, 01 Jan 2000 00:00:00 GMT
 -->
 <resources>
-  
-</resources>
-"
+
+</resources>"
 `;
 
 exports[`formats all should match android/resources snapshot 1`] = `
@@ -61,22 +52,18 @@ exports[`formats all should match android/resources snapshot 1`] = `
 -->
 <resources>
   <color name=\\"color_red\\">#FF0000</color><!-- comment -->
-  
-</resources>
-"
+</resources>"
 `;
 
 exports[`formats all should match android/strings snapshot 1`] = `
 "<?xml version=\\"1.0\\" encoding=\\"UTF-8\\"?>
-
 <!--
   Do not edit directly
   Generated on Sat, 01 Jan 2000 00:00:00 GMT
 -->
 <resources>
-  
-</resources>
-"
+
+</resources>"
 `;
 
 exports[`formats all should match css/fonts.css snapshot 1`] = `
@@ -126,7 +113,6 @@ exports[`formats all should match ios/colors.h snapshot 1`] = `
 
 #import <UIKit/UIKit.h>
 
-
 typedef NS_ENUM(NSInteger, ) {
 color_red
 };
@@ -148,7 +134,6 @@ exports[`formats all should match ios/colors.m snapshot 1`] = `
 //
 
 #import \\".h\\"
-
 
 @implementation 
 
@@ -185,10 +170,7 @@ exports[`formats all should match ios/macros snapshot 1`] = `
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-
-
 #define color_red #FF0000
-
 "
 `;
 
