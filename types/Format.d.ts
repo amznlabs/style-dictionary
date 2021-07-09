@@ -36,10 +36,17 @@ export interface FormatterArguments {
 }
 
 /**
- * The formatter function receives an overloaded object as its arguments and
+ * The formatter function receives positional arguments and it should return a
+ * string, which will be written to a file.
+ */
+declare function formatter(dictionary: Dictionary, platform: Platform, file: File): string;
+/**
+ * The formatter function receives an overloaded object as its argument and
  * it should return a string, which will be written to a file.
  */
-export type Formatter = (arguments: FormatterArguments) => string;
+declare function formatter(arguments: FormatterArguments): string;
+
+export type Formatter = typeof formatter;
 
 export interface Format {
   formatter: Formatter;
